@@ -16,3 +16,25 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*MENU*/
+#nav-color li a {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+#nav-color li a:hover {
+    color: rgba(30, 144, 255, .5);
+ }
+
+#color-bg {
+    background-color: rgba(0, 0, 1, .8);
+}
+
+ul.sub {
+    text-align: center;
+    display: none;
+    padding: 0;
+    list-style: none;
+}
