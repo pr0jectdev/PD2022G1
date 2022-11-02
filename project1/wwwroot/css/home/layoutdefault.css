@@ -1,0 +1,25 @@
+﻿
+awaken-header {
+    /*height: 50px;*/
+    /*width: 100%;*/
+}
+
+awaken-nav {
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-color: limegreen;
+}
+
+.awaken-content {
+    background-color: lightgray;
+    /*padding: 30px;
+    margin-left: 50px;*/
+}
+
+awaken-footer {
+    background-color: rgba(0, 0, 1, .8);
+    height: 50px;
+    float: right;
+    text-align: center;
+}
