@@ -1,0 +1,27 @@
+[
+  // STYLE
+  { 
+    "outputFileName": "wwwroot/css/home.min.css",
+    "inputFiles": [
+      "wwwroot/css/home/site.css",
+      "wwwroot/css/home/layoutdefault.css",
+      "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+    ]
+  },
+
+  // SCRIPT
+  { 
+    "outputFileName": "wwwroot/js/home.min.js",
+    "inputFiles": [
+      "wwwroot/lib/jquery/dist/jquery.js",
+      "wwwroot/js/home/site.js"
+      //"wwwroot/lib/jquery/dist/jqueryvalidate.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": false
+    },
+    // Optionally generate .map file
+    "sourceMap": false
+  }
+]

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project1", "project1.csproj", "{D8197DF7-C3C9-4CE1-96F9-29FA35B34C53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "project1", "project1.csproj", "{D8197DF7-C3C9-4CE1-96F9-29FA35B34C53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "awaken.draft", "..\awaken.draft\awaken.draft.csproj", "{0C3B1B90-E182-46B6-894B-EAE051DE1925}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D8197DF7-C3C9-4CE1-96F9-29FA35B34C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8197DF7-C3C9-4CE1-96F9-29FA35B34C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8197DF7-C3C9-4CE1-96F9-29FA35B34C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C3B1B90-E182-46B6-894B-EAE051DE1925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3B1B90-E182-46B6-894B-EAE051DE1925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3B1B90-E182-46B6-894B-EAE051DE1925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3B1B90-E182-46B6-894B-EAE051DE1925}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
