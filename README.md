@@ -1,5 +1,8 @@
 **Project Developer 2022G**
 
+<em>13/01/23</em> awaken
+- Adicionado arquivo appspec.
+
 <em>02/11/22</em> awaken
 - Layout refatorado e adicionado menu lateral.
 - Alterado estrutura do projeto para utilização de biblioteca de classe (services).

@@ -1,0 +1,7 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/pd2022g_repo
+    overwrite: true
+file_exists_behavior: OVERWRITE
