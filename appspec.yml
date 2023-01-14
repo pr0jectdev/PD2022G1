@@ -5,3 +5,20 @@ files:
     destination: /var/www/pd2022g_repo
     overwrite: true
 file_exists_behavior: OVERWRITE
+hooks:
+  BeforeInstall:
+    - location: /var/bashfile/pd2022g/z_before.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: /var/bashfile/pd2022g/z_after.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: /var/bashfile/pd2022g/z_start.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: /var/bashfile/pd2022g/z_stop.sh
+      timeout: 300
+      runas: root
