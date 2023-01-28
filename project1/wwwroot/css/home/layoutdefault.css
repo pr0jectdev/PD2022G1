@@ -1,25 +1,46 @@
-﻿
+﻿:root {
+    --blue: #2874A6;
+    --white: #FFFFFF;
+    --gray: #F2F4F4;
+}
+
 awaken-header {
     /*height: 50px;*/
     /*width: 100%;*/
 }
 
 awaken-nav {
-    float: left;
-    width: 200px;
+    background-color: var(--white);
+    border-right: 2px solid var(--blue);
     height: 100%;
-    background-color: limegreen;
+    padding-left: 30px;
+    width: 290px;
 }
 
 .awaken-content {
-    background-color: lightgray;
-    /*padding: 30px;
-    margin-left: 50px;*/
+    /*background-color: var(--gray);*/
+    width: 1130px;
+    padding-left: 50px;
+    /*min-width: 768px;*/
+    /*margin-left: 50px;*/
+}
+
+.awaken-sidebar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.awaken-hsc-footer {
+    display: flex;
+    flex-direction: column;
 }
 
 awaken-footer {
-    background-color: rgba(0, 0, 1, .8);
-    height: 50px;
-    float: right;
+    /*background-color: var(--blue);*/
+    /*position: fixed;*/
+    /*float: right;*/
+    bottom: 0;
+    height: 30px;
     text-align: center;
 }

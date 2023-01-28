@@ -11,79 +11,65 @@
 
 </head>
 <body>
-    <!-- Header -->
-    <awaken-header>
-        <nav class="navbar navbar-expand-sm sticky-top navbar-light" id="color-bg">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PD2022</a>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end" id="nav-color">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Projetos<i class='bx bx-chevron-down'></i></a>
-                            <ul class="sub">
-                                <li><a class="nav-link" asp-controller="Home" asp-action="Index">Calculadora</a></li>
-                                <li><a class="nav-link" asp-controller="Home" asp-action="Index">Previsão do tempo</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+    <div class="awaken-hsc-footer">
+        <!-- Header -->
+        <awaken-header>
+            <nav class="navbar navbar-expand-sm sticky-top navbar-dark" id="color-bg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PD2022</a>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-end" id="nav-color">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Projetos<i class='bx bx-chevron-down'></i></a>
+                                <ul class="sub">
+                                    <li><a class="nav-link" asp-controller="Home" asp-action="Index">Calculadora</a></li>
+                                    <li><a class="nav-link" asp-controller="Home" asp-action="Index">Previsão do tempo</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </awaken-header>
-    <!-- End of Header -->
-    
-    <!-- Left Sidebar -->
-    <awaken-nav>
-        @*@RenderPage("~/Views/Shared/_LeftMenu.cshtml")*@
+            </nav>
+        </awaken-header>
+        <!-- End of Header -->
 
-        <ul class="list-group">
-            <li class="nav-item">
+        <div class="awaken-sidebar-content">
+            <!-- Left Sidebar -->
+            <awaken-nav>
+                @*@RenderPage("~/Views/Shared/_LeftMenu.cshtml")*@
+
                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link text-dark" asp-area="" asp-controller="NextController" asp-action="Index">another menu link</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link text-dark" asp-area="" asp-controller="Draft" asp-action="Index">Draft - Index</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link text-dark" asp-area="" asp-controller="Draft" asp-action="Auxiliar">Draft - Auxiliar</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link text-dark" asp-area="" asp-controller="NextController" asp-action="Index">another menu link</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link text-dark" asp-area="" asp-controller="NextController" asp-action="Index">another menu link</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link text-dark" asp-area="" asp-controller="NextController" asp-action="Index">another menu link</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link text-dark" asp-area="" asp-controller="NextController" asp-action="Index">another menu link</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link text-dark" asp-area="" asp-controller="NextController" asp-action="Index">another menu link</a>
-            </li>
-        </ul>
-    </awaken-nav>
-    <!-- End of Left Sidebar -->
+            </awaken-nav>
+            <!-- End of Left Sidebar -->
+            <!-- Content Body -->
 
-    <!-- Content Body -->
-    <div class="awaken-content">
-        @RenderBody()
+            <div class="awaken-content">
+                @RenderBody()
+            </div>
+            <!-- End of Content Body -->
+        </div>
+
+        <!-- Footer -->
+        <awaken-footer class="border-top container-fluid">
+            &copy; 2023 - Project Developer 2022G
+        </awaken-footer>
+        <!-- End of Footer -->
+    
     </div>
-    <!-- End of Content Body -->
-
-    <!-- Footer -->
-    <awaken-footer class="border-top text-muted container-fluid">
-            &copy; 2022 - PD2022
-    </awaken-footer>
 
     <script src="~/js/home.min.js" asp-append-version="true"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

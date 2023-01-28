@@ -1,5 +1,8 @@
 **Project Developer 2022G**
 
+<em>27/01/23</em> awaken
+- Melhorias no layout.
+
 <em>13/01/23</em> awaken
 - Adicionado arquivo appspec.
 
